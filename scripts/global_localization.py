@@ -1,9 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # coding=utf8
-from __future__ import print_function, division, absolute_import
 
 import copy
-import thread
+import _thread
 import time
 
 import open3d as o3d
@@ -255,6 +254,6 @@ if __name__ == '__main__':
     rospy.loginfo('Initialize successfully!!!!!!')
     rospy.loginfo('')
     # 开始定期全局定位
-    thread.start_new_thread(thread_localization, ())
+    _thread.start_new_thread(thread_localization, ())
 
     rospy.spin()
