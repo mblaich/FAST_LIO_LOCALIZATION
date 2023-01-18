@@ -74,7 +74,7 @@ Clone the repository and catkin_make:
     cd FAST_LIO_LOCALIZATION
     git submodule update --init
     cd ../..
-    catkin_make
+    catkin build
     source devel/setup.bash
 ```
 - Remember to source the livox_ros_driver before build (follow [livox_ros_driver](https://github.com/hku-mars/FAST_LIO#13-livox_ros_driver))

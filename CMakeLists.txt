@@ -52,6 +52,7 @@ find_package(catkin REQUIRED COMPONENTS
   pcl_ros
   tf
   livox_ros_driver
+  fast_lio
   message_generation
   eigen_conversions
 )
