@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 # coding=utf8
-
+from __future__ import print_function, division, absolute_import
 
 import argparse
 

@@ -1,6 +1,6 @@
 common:
-    lid_topic:  "/ts_livox/lidar"
-    imu_topic:  "/ts_livox/imu"
+    lid_topic:  "/livox/lidar"
+    imu_topic:  "/livox/imu"
     time_sync_en: false         # ONLY turn on when external time synchronization is really not possible
     
 preprocess:
